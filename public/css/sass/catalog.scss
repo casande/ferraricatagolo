@@ -1,0 +1,41 @@
+section.content {
+	padding-top: 138px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: table;
+
+    h2 {
+    	text-transform: uppercase;
+	    text-align: center;
+	    color: #c72324;
+	    font-size: 35px;
+    }
+    .product {
+	    float: left;
+	    width: 30%;
+	    margin: 70px 36px 0 0;
+
+	    a {
+		    text-decoration: none;
+		}
+
+	    img {
+		    width: 90%;
+		    margin-left: 5%;
+		}
+		h3 {
+		    color: #c72324;
+		    text-transform: uppercase;
+		    font-size: 32px;
+		    text-align: center;
+		    margin: 10px 0 10px 0;
+		}
+		p {
+		    width: 90%;
+		    margin-left: 5%;
+		    color: #828282;
+		    text-align: justify;
+		    font-size: 16px;
+		}
+	}
+}

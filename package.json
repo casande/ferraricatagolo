@@ -1,0 +1,23 @@
+{
+  "name": "Ferrari Catalogo",
+  "version": "1.0.0",
+  "description": "Catalogo Ferrari responsivo",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-csso": "^2.0.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Camila Sande",
+  "license": "ISC"
+}

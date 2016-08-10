@@ -1,0 +1,125 @@
+footer {
+	width: 100%;
+    background-color: #dedede;
+    margin-top: 90px;
+    float: left;
+    padding: 4% 0 4% 0;
+
+    .footer-cnt {
+	    max-width: 950px;
+	    margin: 0 auto;
+	    display: flex;
+
+	    nav {
+		    width: 66%;
+    		padding-top: 22px;
+
+		    .menu {
+				font-family: 'Oswald', sans-serif;
+
+				li {
+				    list-style: none;
+
+				    a {
+					    color: #5d5d5d;
+					    text-decoration: none;
+					    font-size: 17px;
+					    text-transform: uppercase;
+					}
+				}
+			}
+		}
+
+		.atendimento {
+		    background: url("../img/telefone-icon.png") no-repeat;
+		    background-size: 21%;
+		    padding-left: 110px;
+		    width: 102%;
+		    font-family: 'Oswald', sans-serif;
+		    margin-top: 15px;
+		    min-height: 100px;
+
+		    h2 {
+			    text-transform: uppercase;
+			    color: #c72324;
+			    font-size: 35px;
+			}
+			 p {
+			    text-transform: uppercase;
+			    color: #383838;
+			    font-size: 32px;
+			}
+		}
+
+		.newsletter {
+		    margin-top: 15px;
+
+		    h2 {
+			    text-transform: uppercase;
+			    color: #c72324;
+			    font-size: 34px;
+			}
+
+			form#newsletter {
+			    position: relative;
+
+			    input {
+				    border: 1px solid #c1c1c1;
+				    width: 330px;
+				    height: 38px;
+				    color: #353535;
+				    padding-left: 14px;
+				    z-index: 1;
+				}
+
+				p.error {
+				    color: red;
+				    font-size: 13px;
+				    margin-left: 14px;
+				    padding-top: 4px;
+				    text-transform: uppercase;
+				    font-weight: bold;
+				}
+				p.sucesso {
+				    color: green;
+				    font-size: 13px;
+				    margin-left: 14px;
+				    padding-top: 4px;
+				    text-transform: uppercase;
+				    font-weight: bold;
+				}
+
+				input.error {
+				    border: 1px solid red;
+				}
+
+				button {
+				    position: absolute;
+				    z-index: 2;
+				    top: 16%;
+				    right: 3%;
+				    background: url("../img/news-enviar.gif") no-repeat;
+				    cursor: pointer;
+				    height: 25px;
+				    width: 25px;
+				    text-indent: -9999px;
+				    border: 0;
+				}
+			}
+
+			
+		}
+	}
+    
+}
+.backTop {
+	background: url("../img/back-top.png") no-repeat;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 5%;
+    right: 2%;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-size: contain;
+}

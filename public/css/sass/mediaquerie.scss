@@ -1,0 +1,175 @@
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+
+	header.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+
+	/* menu tablet */
+
+		/* Isto é necessário para não haver rolagens horizontais quando movermos os elementos */
+		html, body {overflow-x: hidden;}
+
+		/*
+		   Com a classe menu-active na tag HTML
+		*/
+		.menu-active menu {
+		    -webkit-transform: translateX(0);
+		    -moz-transform: translateX(0);
+		    -ms-transform: translateX(0);
+		    transform: translateX(0);
+		}
+
+		.menu-active header, 
+		.menu-active .main {
+		    -webkit-transform: translateX(220px);
+		    -moz-transform: translateX(220px);
+		    -ms-transform: translateX(220px);
+		    transform: translateX(220px);
+		}
+	/* menu tablet fim */
+
+	section.content .product {
+	    width: 43%;
+	    margin: 70px 36px 0 3%;
+	}
+
+	.modalDialog > div {
+        width: 65%;
+        height: 21%;
+        margin-top: 20%;
+    }
+
+    footer {
+		min-height: 150px;
+	}
+
+    .backTop {
+    	bottom: 15%;
+    }
+
+}
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+
+	section.content .product {
+	    width: 42%;
+	    margin: 70px 36px 0 4%;
+	}
+
+	.backTop {
+    	bottom: 15%;
+    }
+
+}
+
+/* mobile in portrait e landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) { 
+	header.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+
+	/* menu mobile */
+
+		/* Isto é necessário para não haver rolagens horizontais quando movermos os elementos */
+		html, body {overflow-x: hidden;}
+
+		/*
+		   Com a classe menu-active na tag HTML
+		*/
+		.menu-active menu {
+		    -webkit-transform: translateX(0);
+		    -moz-transform: translateX(0);
+		    -ms-transform: translateX(0);
+		    transform: translateX(0);
+		}
+
+		.menu-active header, 
+		.menu-active .main {
+		    -webkit-transform: translateX(220px);
+		    -moz-transform: translateX(220px);
+		    -ms-transform: translateX(220px);
+		    transform: translateX(220px);
+		}
+	/* menu mobile fim */
+
+	section.content .product {
+		width: 90%;
+    	margin: 70px 36px 0 5%;
+	}
+	section.content h2 {
+		font-size: 70px
+	}
+	section.content .product h3 {
+		font-size: 60px
+	}
+	section.content .product p {
+		font-size: 26px;
+	}
+	footer .footer-cnt {
+		display: block;
+	}
+	footer .footer-cnt nav {
+		margin-left: 10%;
+	}
+	footer .footer-cnt nav .menu li a {
+		font-size: 47px;
+	}
+	footer .footer-cnt .atendimento {
+	    background-size: 21%;
+	    padding-left: 250px;
+	    width: 88%;
+	    margin-top: 125px;
+	    margin-left: 80px;
+	    min-height: 280px;
+	}
+	footer .footer-cnt .atendimento h2 {
+		font-size: 65px;
+	}
+	footer .footer-cnt .atendimento p {
+		font-size: 82px;
+	}
+	footer .footer-cnt .newsletter {
+		margin-top: 85px;
+   	 	margin-left: 106px;
+	}
+	footer .footer-cnt .newsletter form#newsletter input {
+		width: 710px;
+    	height: 168px;
+    	font-size: 60px;
+	}
+	footer .footer-cnt .newsletter form#newsletter button {
+	    top: 25%;
+	    right: 19%;
+	    height: 80px;
+	    width: 80px;
+	    background-size: contain;
+	}
+	footer .footer-cnt .newsletter form#newsletter p.error {
+	    font-size: 16px;
+	    margin-left: 0;
+	    padding-top: 34px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	}
+	footer .footer-cnt .newsletter h2 {
+		font-size: 74px;
+	}
+	.backTop {
+	    width: 110px;
+	    height: 110px;
+	    bottom: 5%;
+	    right: 1%;
+	}
+	footer .footer-cnt .newsletter form#newsletter p.sucesso {
+		 font-size: 16px;
+		 padding-top: 36px;
+	}
+ }
